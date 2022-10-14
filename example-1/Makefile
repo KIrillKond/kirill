@@ -15,6 +15,5 @@ hello: hello.cpp
 	g++ -O2 hello.cpp -o hello -DNDEBUG -Wall
 
 clean:
-	rm -f hello 
-	rm hello-dbg
+	rm -f hello hello-dbg 
 
